@@ -1,6 +1,9 @@
 name: Periodic Python Script
 
 on:
+  push:
+    branches:
+      - '*'
   schedule:
     - cron: '0 * * * *'
 
